@@ -1,0 +1,31 @@
+#app {
+  width: 100%;
+}
+
+body {
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.wrapper .main {
+  display: flex;
+  align-items: center;
+}
+.wrapper .main input {
+  border: none;
+  outline: none;
+}
+.wrapper .main .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #8B8B8B;
+  border-radius: 5px;
+  padding: 12.5px 10px;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
